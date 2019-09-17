@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-bottom: 2px solid black;
+    font-family: "Feijoa-display",Georgia,serif;
+}
+
+.div-logo{
+    padding-top: 5.5vh;
+}
+svg.logo{
+    fill: #ba5902;
+    height: 14.5vh;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+ul li a{
+    color: #ba5902;
+    font-size: 20px;
+    background-color: #fff;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(163,157,157,.3);
+}
+
+.intro-section{
+    border-bottom:4px solid #ba5902;
+}
+
+h1{
+    font-size: 4.7vh;
+    line-height:1;
+    font-family: "Feijoa-display",Georgia,serif;
+}
+#intro-text{
+    font-size: 3vh;
+    font-family: "Feijoa",Georgia,serif;
+}
+
+div img#intro{
+    width: 50vw;
+    box-shadow: 3px 8px 3px 3px rgba(38,70,83,.4);;
+}
+
+section.example div img{
+    width: 85%;
+    border: 2px solid gray;
+}
+
+section.example div h1{
+    font-size: 4vh;
+}
+
+section.example li{
+    font-size: 2vh;
+}
+
+section.example p{
+    font-style: italic;
+    font-size: 1.5vh;
+}
